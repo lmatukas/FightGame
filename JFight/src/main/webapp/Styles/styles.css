@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC');
+body {
+    font-family: 'Almendra SC', serif;
+    font-weight: bold;
+    background-image: url("/Images/bg5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+.top5 {
+    margin-top: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.fadeout {
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0);
+    pointer-events: none;
+}
+
+.form-check {
+    padding-right: 1.25rem;
+}
+
+.ready {
+    color: green;
+}
